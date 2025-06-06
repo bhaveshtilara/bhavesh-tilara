@@ -30,7 +30,7 @@ const projects = [
     shortDesc: 'A web-based food ordering platform for Graphic Era Hill University.',
     desc: 'QuickBite is a web-based food ordering platform built for the tuckshop at Graphic Era Hill University, Haldwani. It offers students and staff an easy way to browse the menu, place orders, make online payments, and receive food deliveries within the campus.',
     tech: 'Next.js, Tailwind CSS, Firebase, Firestore, Vercel',
-    link: 'https://github.com/bhaveshtilara/QuickBite',
+    link: 'https://quick-bite-project-tan.vercel.app/',
   },
   {
     title: 'Real-Time Collaborative Text Editor (without Backend)',
