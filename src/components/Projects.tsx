@@ -25,6 +25,27 @@ const projects = [
     tech: 'Next.js, React.js, Tailwind CSS',
     link: 'https://bhavesh-tilara.vercel.app/',
   },
+  {
+    title: 'QuickBite – Smart Tuckshop Ordering System',
+    shortDesc: 'A web-based food ordering platform for Graphic Era Hill University.',
+    desc: 'QuickBite is a web-based food ordering platform built for the tuckshop at Graphic Era Hill University, Haldwani. It offers students and staff an easy way to browse the menu, place orders, make online payments, and receive food deliveries within the campus.',
+    tech: 'Next.js, Tailwind CSS, Firebase, Firestore, Vercel',
+    link: 'https://github.com/bhaveshtilara/QuickBite',
+  },
+  {
+    title: 'Real-Time Collaborative Text Editor (without Backend)',
+    shortDesc: 'A real-time collaborative text editor using peer-to-peer communication.',
+    desc: 'This is a real-time collaborative text editor built using Next.js, designed to let multiple users edit the same document at the same time — without any backend server. It uses peer-to-peer (P2P) communication through technologies like WebRTC or libraries like Peer.js, allowing direct connection and real-time syncing between users.',
+    tech: 'Next.js, JavaScript, CSS, WebRTC (or Peer.js), LocalStorage',
+    link: 'https://real-time-collaborative-editor-eta.vercel.app/',
+  },
+  {
+    title: 'GEHU Visitor Tracking Application',
+    shortDesc: 'A visitor management system for Graphic Era Hill University.',
+    desc: 'A full-stack web application built using Next.js and MongoDB to digitally manage visitor entries at GEHU. The system replaces the old manual ID-based process with a secure, efficient, and user-friendly digital platform. It allows recording visitor details, tracking visit frequency, blocking unauthorized visitors, and viewing analytics through an admin dashboard.',
+    tech: 'Next.js, Tailwind CSS, MongoDB, Mongoose, TypeScript, Vercel',
+    link: 'https://college-visitormanagement-app.vercel.app/',
+  },
 ];
 
 export default function Projects() {
@@ -61,6 +82,8 @@ export default function Projects() {
             <p className="text-sm text-light-accent dark:text-dark-accent mb-4">Tech: {project.tech}</p>
             <motion.a
               href={project.link}
+              target="_blank"
+              rel="noopener noreferrer"
               whileHover={{ scale: 1.05, color: darkMode ? '#F5A623' : '#FF9F1C' }}
               whileTap={{ scale: 0.95 }}
               className="inline-block px-4 py-2 bg-light-primary dark:bg-dark-primary text-light-text dark:text-dark-text rounded-full font-medium"
